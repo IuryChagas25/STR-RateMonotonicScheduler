@@ -106,7 +106,7 @@ Após a verificação da viabilidade e ordenação das tarefas, o código gera u
 
 ### Como Usar
 
-1. Prepare um arquivo `tarefas.json` com a lista de tarefas no formato especificado.
+1. Prepare um arquivo `tarefas.json` com a lista de tarefas no formato condizente ao presente neste repositório.
 2. Execute o script Python.
 3. Verifique o resultado gerado no arquivo `resultado.json`.
 
