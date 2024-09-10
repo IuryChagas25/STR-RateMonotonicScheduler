@@ -51,15 +51,15 @@ O algoritmo de escalonamento Rate Monotonic (RM) segue os seguintes passos:
 
 
    Onde:
-   - \( C_i \) é o tempo de execução da tarefa \( i \)
-   - \( T_i \) é o período da tarefa \( i \)
+   - \( Ci \) é o tempo de execução da tarefa \( i \)
+   - \( Ti \) é o período da tarefa \( i \)
    - \( N \) é o número total de tarefas
 
 2. **Condição Suficiente de Viabilidade**: Para garantir que o escalonamento RM será capaz de atender todas as tarefas dentro dos prazos, a utilização total deve ser menor ou igual a um limite teórico calculado pela fórmula:
 
     <div align="center">
         <img src="assets/utilizacao_limite.png" alt="Fórmula do limite teórico">
-        <p><em>Fórmula de Utilização Total</em></p>
+        <p><em>Fórmula do limite teórico</em></p>
     </div>
   
 
