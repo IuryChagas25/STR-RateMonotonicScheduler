@@ -53,7 +53,7 @@ O algoritmo de escalonamento Rate Monotonic (RM) segue os seguintes passos:
    Onde:
    - \( Ci \) é o tempo de execução da tarefa \( i \)
    - \( Ti \) é o período da tarefa \( i \)
-   - \( N \) é o número total de tarefas
+   
 
 2. **Condição Suficiente de Viabilidade**: Para garantir que o escalonamento RM será capaz de atender todas as tarefas dentro dos prazos, a utilização total deve ser menor ou igual a um limite teórico calculado pela fórmula:
 
@@ -62,6 +62,9 @@ O algoritmo de escalonamento Rate Monotonic (RM) segue os seguintes passos:
         <p><em>Fórmula do limite teórico</em></p>
     </div>
   
+  Onde:
+  - \( U \) é a utilização total
+  - \( n \) é o número total de tarefas
 
    Esse valor é conhecido como a **condição suficiente de viabilidade**. Se a utilização total for menor ou igual a esse limite, o escalonamento é viável.
 
