@@ -113,6 +113,6 @@ Após a verificação da viabilidade e ordenação das tarefas, o código gera u
 #### Exemplo de Execução
 
 ```bash
-$ python escalonador_rm.py
+$ python determinador_de_escalonamento_RM.py
 O resultado foi salvo no arquivo 'resultado.json'.
 
