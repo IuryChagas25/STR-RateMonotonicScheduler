@@ -43,9 +43,9 @@ O algoritmo de escalonamento Rate Monotonic (RM) segue os seguintes passos:
 
 1. **Cálculo da Utilização**: A utilização total do sistema é calculada somando-se as razões entre o tempo de execução e o período de cada tarefa. A utilização é dada pela fórmula:
 
-   \[
+   
    ![Fórmula de Utilização Total](assets/Utilizacao.png)
-   \]
+   
 
    Onde:
    - \( C_i \) é o tempo de execução da tarefa \( i \)
@@ -54,9 +54,9 @@ O algoritmo de escalonamento Rate Monotonic (RM) segue os seguintes passos:
 
 2. **Condição Suficiente de Viabilidade**: Para garantir que o escalonamento RM será capaz de atender todas as tarefas dentro dos prazos, a utilização total deve ser menor ou igual a um limite teórico calculado pela fórmula:
 
-   \[
+   
   ![Fórmula do limite teórico](assets/utilizacao_limite.png)
-   \]
+   
 
    Esse valor é conhecido como a **condição suficiente de viabilidade**. Se a utilização total for menor ou igual a esse limite, o escalonamento é viável.
 
