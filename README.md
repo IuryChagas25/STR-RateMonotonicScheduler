@@ -113,9 +113,6 @@ Após a verificação da viabilidade e ordenação das tarefas, o código gera u
 2. Execute o script Python.
 3. Verifique o resultado gerado no arquivo `resultado.json`.
 
-#### Exemplo de Execução
+#### Demonstração
 
-```bash
-$ python determinador_de_escalonamento_RM.py
-O resultado foi salvo no arquivo 'resultado.json'.
-
+* https://youtu.be/D3MWegfCpt4
